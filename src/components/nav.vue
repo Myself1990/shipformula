@@ -222,6 +222,12 @@ export default {
 		"resourceName": "评级报表",
 		"iconClass": "iconfont icon-certificate",
 		"linkUrl": "/theratingreport",
+	}, {
+		"parentResourceName": "POOL结算",
+		"resources": [],
+		"resourceName": "航次总结",
+		"iconClass": "iconfont icon-certificate",
+		"linkUrl": "/voyagesummary",
 	}],
 }, {
   	"resourceName": "邮件解析",

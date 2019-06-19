@@ -16,6 +16,7 @@ import ShipEarnings from '@/components/shipearnings/ShipEarnings'
 import IncomeDistribution from '@/components/incomedistribution/IncomeDistribution'
 import BenchmarkTce from '@/components/benchmarktce/BenchmarkTce'
 import TheRatingReport from '@/components/theratingreport/TheRatingReport'
+import VoyageSummary from '@/components/voyagesummary/VoyageSummary'
 
 import EmailConfiguration from '@/components/emailconfiguration/EmailConfiguration'
 import CargoEmail from '@/components/cargoemail/CargoEmail'
@@ -107,7 +108,12 @@ export default new Router({
       name: 'TheRatingReport',
       component: TheRatingReport
     },
-
+    {
+      path: '/voyagesummary',
+      name: 'VoyageSummary',
+      component: VoyageSummary
+    },
+    
 
 
     {
